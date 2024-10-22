@@ -18,5 +18,5 @@ document.getElementById('ticketForm').addEventListener('submit', function(event)
 	localStorage.setItem("ticket", ticketDetails);
 
     // Redirect to confirmation page
-    window.location.href = '/confirmation.html';
+    window.location.href = 'confirmation.html';
 });
